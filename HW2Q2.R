@@ -1,0 +1,20 @@
+#I here have a rating level for basketball plaers base on their defense and offense abilities
+par(xpd = NA)
+plot(NA, NA, type = "n", xlim = c(0,600), ylim = c(0,600), xlab = "offense", ylab = "defense")
+# t1: x = 300; (300, 0) (300, 600)
+lines(x = c(300,300), y = c(0,600))
+text(x = 300, y = 660, labels = c("t1"), col = "red")
+# t2: y = 400; (0, 400) (600, 400)
+lines(x = c(0,600), y = c(400,400))
+text(x = 660, y = 400, labels = c("t2"), col = "red")
+# t3: x = 660; (0,200) (600, 200)
+lines(x = c(0,600), y = c(200,200))
+text(x = 660, y = 200, labels = c("t3"), col = "red")
+
+text(x = 150, y = 100, labels = c("R1 Rookie"))
+text(x = 150, y = 300, labels = c("R2 defensive player"))
+text(x = 150, y = 500, labels = c("R3 defensive star"))
+text(x = 450, y = 100, labels = c("R4 James Harden"))
+text(x = 450, y = 300, labels = c("R5 star player"))
+text(x = 450, y = 500, labels = c("R6 Big baller"))
+
